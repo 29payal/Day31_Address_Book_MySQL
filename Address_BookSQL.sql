@@ -39,4 +39,6 @@ select FirstName, LastName, Address, City,State, Zip, PhoneNumber, Email from AD
 select COUNT(*) as StateCount, State from Address_Book group by State
 Select COUNT(*) as CityCount, City from Address_Book group by City
 
+-------UC8 Retrieve entries sorted alphabetically by person name-----
+select * from Address_Book order by FirstName
  
