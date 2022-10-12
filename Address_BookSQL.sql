@@ -32,3 +32,5 @@ UPDATE ADDRESS_BOOK set City='Nasik' where FirstName= 'Jesna'
 ------UC5 delete contact by using Person FirstName--------
 delete from Address_Book where FirstName= 'Aman'
 
+-----UC6 Retrieve data into table--------
+select FirstName, LastName, Address, City,State, Zip, PhoneNumber, Email from ADDRESS_BOOK where City= 'Indore'
