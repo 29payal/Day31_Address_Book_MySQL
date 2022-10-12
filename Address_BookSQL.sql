@@ -29,3 +29,6 @@ values('Payal', 'Sharma', '12street', 'Indore', 'Madhya Pradesh', 458441, 123456
 -------UC4 Edit contact----
 UPDATE ADDRESS_BOOK set City='Nasik' where FirstName= 'Jesna'
 
+------UC5 delete contact by using Person FirstName--------
+delete from Address_Book where FirstName= 'Aman'
+
