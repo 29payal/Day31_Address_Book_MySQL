@@ -25,3 +25,7 @@ values('Payal', 'Sharma', '12street', 'Indore', 'Madhya Pradesh', 458441, 123456
       ('Sonu' , 'Sharma', '13 streets',' Bhopal', 'MP', 450987, 9087654321, 'red@gmail.com'),
 	  ('Aman', 'Mittal' , '14 streets', 'pune' , 'Maharashtra', 543677, 9865456789, 'aman123@gmail.com'),
 	  ('Jesna', 'Mathew', 'streets', 'bombay', 'Maharashtra', 546789, 8907623444, 'jesna12@gmail.com')
+
+-------UC4 Edit contact----
+UPDATE ADDRESS_BOOK set City='Nasik' where FirstName= 'Jesna'
+
