@@ -34,3 +34,9 @@ delete from Address_Book where FirstName= 'Aman'
 
 -----UC6 Retrieve data into table--------
 select FirstName, LastName, Address, City,State, Zip, PhoneNumber, Email from ADDRESS_BOOK where City= 'Indore'
+
+------UC7 understand size of state and city-----
+select COUNT(*) as StateCount, State from Address_Book group by State
+Select COUNT(*) as CityCount, City from Address_Book group by City
+
+ 
